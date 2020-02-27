@@ -29,7 +29,9 @@ function App() {
 
         </div>
         <div className="landingFooter">
-           
+          <video autoplay muted loop className="myVideo"
+              source src="./lawyer_background.mp4" type="video/mp4"
+            />
         </div>
         
       </div>
