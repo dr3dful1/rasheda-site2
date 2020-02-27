@@ -23,6 +23,7 @@ function App() {
         </div>
         <div className=" container secondLandingArea">
           <h1>ijfowsejhfiuwrhuiwh</h1>
+          <h1>ijfowsejhfiuwrhuiwh</h1>
 
         </div >
         <div className="thirdLandingArea" >
