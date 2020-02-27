@@ -1,6 +1,5 @@
 .mainDiv{
-  background-color: white;
-  height: 1000%;
+ background-color: lightseagreen;
 }
 .navbar{
   background-color: black;
@@ -33,6 +32,7 @@
 
 }
 .landingFooter{
-  background-color: lightcyan;
-  max-height: 500px;
+  background-color: lime;
+  height: 60vh;
+  
 }
