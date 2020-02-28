@@ -13,11 +13,11 @@ function App() {
 
           </div>
         <div className="landingImage">
-          <img src="legal_image.jpg" alt="Italian Trulli">
+           <img src="legal_image.jpg" alt="Italian Trulli">
 
           </img>
-          
            
+            
           
 
         </div>
@@ -30,7 +30,7 @@ function App() {
 
         </div>
         <div className="landingFooter">
-          <video autoplay muted loop className="myVideo"
+          <video  autoplay="true" loop="true" muted="true" preload="auto" className="myVideo"
               source src="./lawyer_background.mp4" type="video/mp4"
             />
         </div>
