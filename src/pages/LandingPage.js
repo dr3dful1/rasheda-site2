@@ -8,7 +8,7 @@ function LandingPage () {
     return (
         <div>
             <LandingImage />
-            {/* <Navbar /> */}
+              {/* <Navbar />   */}
              
             
              

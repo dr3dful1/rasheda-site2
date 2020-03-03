@@ -1,5 +1,5 @@
 import React from 'react'
-import SecondLandingArea from './SecondLandingArea'
+import SecondLandingArea from '../components/SecondLandingArea'
  
 function WelcomePage() {
     return (
