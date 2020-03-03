@@ -13,14 +13,24 @@
   overflow: hidden;
 }
 .secondLandingArea{
-  background-color:dodgerblue;
-  width: 1000px;
-  height: 600px;
+  display: inline-flex;
+  width: 500px;
+  height: 170px;
   margin: auto;
+  position:relative;
+  bottom: 700px;
+  left:500px;
+   
+   
 }
  .myVideo{
-   height: 125.7vh;
+   height: 117.5vh;
+   z-index: -1;
+    
 
+ }
+ .videoDiv{
+   height:117.5vh;
  }
 
  
@@ -32,4 +42,28 @@
 .landingFooter{
   background-color: lime;
   height: 125.7vh;
+}
+
+.navText{
+  color: white;
+}
+.ss{
+  background: rgba(255, 255, 255, 0.2);
+  border:solid 1px grey;
+  height:200px;
+  width: 200px;
+}
+.pi{
+   
+  background: rgba(245, 248, 245, 0.2);
+  border:solid 1px grey;
+  height:200px;
+  width: 200px;
+}
+.mm{
+   
+  background: rgba(252, 252, 252, 0.2);
+  border:solid 1px grey;
+  height:200px;
+  width: 200px;
 }

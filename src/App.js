@@ -1,42 +1,17 @@
 import React from 'react';
- 
-
- 
 import './App.css';
+import {Link} from 'react-router-dom';
+import WelcomePage from './components/WelcomePage';
+import {BrowserRouter, Route} from 'react-router-dom'; 
+// import LandingPage from './components/LandingPage';
+import LandingPage from './components/LandingPage';
 
 function App() {
   return (
-    <div>
-      <div className="mainDiv">
-
-          <div className="navbar">
-
-          </div>
-        <div className="landingImage">
-           <img src="legal_image.jpg" alt="Italian Trulli">
-
-          </img>
-           
-            
-          
-
-        </div>
-        <div className=" container secondLandingArea">
-          <h1>ijfowsejhfiuwrhuiwh</h1>
-          <h1>ijfowsejhfiuwrhuiwh</h1>
-
-        </div >
-        <div className="thirdLandingArea" >
-
-        </div>
-        <div className="landingFooter">
-          <video  autoplay="true" loop="true" muted="true" preload="auto" className="myVideo"
-              source src="./lawyer_background.mp4" type="video/mp4"
-            />
-        </div>
-        
-      </div>
-  </div>
+    <BrowserRouter>
+      <Route exact path="/" component={WelcomePage}/>
+      <Route exact path="/landing" component={LandingPage}/>    
+  </BrowserRouter>
   );
 }
  
