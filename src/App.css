@@ -12,33 +12,23 @@
   height: 150vh;
   overflow: hidden;
 }
-.secondLandingArea{
-  display: inline-flex;
-  width: 500px;
-  height: 170px;
-  margin: auto;
-  position:relative;
-  bottom: 700px;
-  left:500px;
-   
-   
+.myVideo{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
- .myVideo{
-   height: 117.5vh;
-   z-index: -1;
-    
 
- }
- .videoDiv{
-   height:117.5vh;
- }
+.videoDiv{
+  width: 100vw;
+  height: 100vh;
+}
+
 
  
-.thirdLandingArea{
-  background-color: gold;
-  height: 60vh;
-
-}
 .landingFooter{
   background-color: lime;
   height: 125.7vh;
@@ -54,16 +44,48 @@
   width: 200px;
 }
 .pi{
-   
+  
   background: rgba(245, 248, 245, 0.2);
   border:solid 1px grey;
   height:200px;
   width: 200px;
 }
 .mm{
-   
+  
   background: rgba(252, 252, 252, 0.2);
   border:solid 1px grey;
   height:200px;
   width: 200px;
+}
+
+.landingBody{
+  display: inline-flex;
+  width: 500px;
+  height: 170px;
+  margin: auto;
+  position:relative;
+}
+
+.secondLandingAreaDiv{
+  margin:auto;
+  max-width: 1600px;
+  height: 200px;
+  border: solid 4px green;
+  background-color: aqua; 
+  background-size: cover;
+}
+.secondLandingArea{
+      display: inline-flex;
+      width: 500px;
+      height: 170px;
+       
+      position:relative;
+      /* bottom: 700px;
+      left:500px; */
+    }
+.thirdLandingArea{
+  border: solid 8px pink;
+  max-height: 700px;
+  width: 1566px;
+  height: 400px;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const secondLandingArea = () => {
+const SecondLandingArea = () => {
     return (
         <div>
             <div className="secondLandingArea">
@@ -19,4 +19,4 @@ const secondLandingArea = () => {
     )
 }
 
-export default secondLandingArea
+export default SecondLandingArea
