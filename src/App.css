@@ -1,17 +1,6 @@
-.mainDiv{
- background-color: lightseagreen;
-}
-.navbar{
-  background-color: black;
-  height: 10vh;
-  opacity: .9;
-  
-}
-.landingImage{
-  background-color: red;
-  height: 150vh;
-  overflow: hidden;
-}
+ 
+ 
+ 
 .myVideo{
   object-fit: cover;
   width: 100vw;
@@ -28,81 +17,29 @@
   position:relative;
   
 }
-
+/* Father and Child make box centered */
 .mainPageBoxDiv{
-  border: solid 1px white;
-  width: 30vw;
-  height: 30vh;
+  border: solid 1px grey;
+  width: 40vw;
+  height: 40vh;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
-  
-    
   background-color: rgba(245, 248, 245, 0.25);
    
 }
 
- 
-.landingFooter{
-  background-color: lime;
-  height: 125.7vh;
-}
-
-.navText{
-  color: white;
-}
-.ss{
-  background: rgba(255, 255, 255, 0.2);
-  border:solid 1px grey;
-  height:200px;
-  width: 200px;
-}
-.pi{
-  
-  background: rgba(245, 248, 245, 0.2);
-  border:solid 1px grey;
-  height:200px;
-  width: 200px;
-}
-.mm{
-  
-  background: rgba(252, 252, 252, 0.2);
-  border:solid 1px grey;
-  height:200px;
-  width: 200px;
-}
-
-.landingBody{
-  display: inline-flex;
-  width: 500px;
-  height: 170px;
-  margin: auto;
-  position:relative;
-}
-
-.secondLandingAreaDiv{
-  margin:auto;
-  max-width: 1600px;
-  height: 200px;
-  border: solid 4px green;
-  background-color: aqua; 
+.landingContainer{
+    
+  background-color: aqua;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
-.secondLandingArea{
-      display: inline-flex;
-      width: 500px;
-      height: 170px;
-       
-      position:relative;
-      /* bottom: 700px;
-      left:500px; */
-    }
-.thirdLandingArea{
-  border: solid 8px pink;
-  max-height: 700px;
-  width: 1566px;
-  height: 400px;
-}
+ 
+  
+ 
+ 
