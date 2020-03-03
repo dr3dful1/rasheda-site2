@@ -9,6 +9,10 @@ function WelcomePage() {
                     <video  autoplay="true" loop="true" muted="true" preload="auto" className="myVideo"
                     source src="./lawyerbackground1.mp4" type="video/mp4"
                     />
+                    <div className="mainPageBoxDiv">
+
+                    </div>
+
            
                 </div>
 

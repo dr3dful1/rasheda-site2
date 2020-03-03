@@ -25,8 +25,25 @@
 .videoDiv{
   width: 100vw;
   height: 100vh;
+  position:relative;
+  
 }
 
+.mainPageBoxDiv{
+  border: solid 1px white;
+  width: 30vw;
+  height: 30vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  
+    
+  background-color: rgba(245, 248, 245, 0.25);
+   
+}
 
  
 .landingFooter{
