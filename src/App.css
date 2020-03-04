@@ -93,10 +93,23 @@
 
 .mainNav{
   width:100%;
-  height:12vh;
+  height:14vh;
   border-color: rgb(17, 0, 255);
   border-style: solid;
   border-width: 5px;
-  
+  padding-left:10px;
   z-index:12;
+  padding-top:4px;
+}
+.logoDiv{
+  /* border-color: red;
+  border-style: solid; */
+  height: 11vh;
+  width:10%;
+}
+
+.navLogo{
+  object-fit:cover;
+  width:100%;
+  height:100%;
 }
