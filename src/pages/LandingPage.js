@@ -1,22 +1,26 @@
 import React from 'react'
- 
- 
 import {Link} from 'react-router-dom'
 import LandingImage from '../components/LandingImage'
 import SecondLandingArea from '../components/SecondLandingArea'
-import {Nav, NavItem,Navbar,Badge} from 'react-bootstrap'
+import Footer from "../components/Footer"
 import MainNavbar from  '../components/Navbar'
 
 function LandingPage () {
     return (
+            <div>
+                <div>
+                    <MainNavbar />
+
+                </div>
+
          
-            <div  className="container landingContainer ">
-                <MainNavbar />
-                  
+                <div  className="container landingContainer ">
+                    <LandingImage />
 
-                
-            </div> 
-
+                    
+                </div> 
+                    <Footer/>
+            </div>
          
          
     )

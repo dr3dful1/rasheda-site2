@@ -34,12 +34,69 @@
 
 .landingContainer{
     
-  background-color: aqua;
+  background-color: rgba(214, 212, 188, 0.2);
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
  
+ .landingImage{
+  max-width: 95%;
+  max-height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-attachment: fixed;
+  background-position: center;
+ }
  
- 
- 
+ .intraMainPicText{
+   z-index:10;
+   position:absolute;
+   right:60%;
+   left:5px;
+   bottom:5px;
+   top:5px;
+   background-color: rgba(212, 40, 204, 0.12);
+    
+   
+ }
+
+ .whiteTextBackground{
+  background-color: rgba(255, 255, 255, 0.85);
+  padding-left: 15px;
+  color: black;
+  font-family: Lora-Regular;
+  padding-bottom: 10px;
+  padding-right: 10px;
+   
+ }
+
+ .footerDiv{
+   width:100%;
+   height:24vh;
+    
+   border-color: rgb(17, 0, 255);
+   border-style: solid;
+   border-width: 5px;
+ }
+
+ @font-face {
+  font-family: 'Lora-Regular';
+  src: local('Lora-Regular'), url(./fonts/Lora-Regular.ttf) format('truetype');
+}
+
+
+.mainNav{
+  width:100%;
+  height:12vh;
+  border-color: rgb(17, 0, 255);
+  border-style: solid;
+  border-width: 5px;
+  
+  z-index:12;
+}
