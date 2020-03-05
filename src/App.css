@@ -73,6 +73,7 @@
   font-family: Lora-Regular;
   padding-bottom: 10px;
   padding-right: 10px;
+  font-size: 1vw;
    
  }
 
@@ -89,6 +90,15 @@
   font-family: 'Lora-Regular';
   src: local('Lora-Regular'), url(./fonts/Lora-Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'PlaybItal';
+  src: local('PlaybItal'), url(./fonts/PlaybItal.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PlayItal';
+  src: local('PlayItal'), url(./fonts/PlayItal.ttf) format('truetype');
+}
+
 
 
 .mainNav{
@@ -134,7 +144,7 @@
   border-style: solid; 
    
   height: 90%;
-  width: 14% ;
+  width: 20% ;
    
 }
 .navLink2{
@@ -142,7 +152,7 @@
   border-style: solid; 
    
   height: 90%;
-  width: 14% ;
+  width: 20% ;
    
 }
 .navLink3{
@@ -150,23 +160,26 @@
   border-style: solid; 
    
   height: 90%;
-  width: 14% ;
+  width: 20% ;
    
 }
 .navLink4{
   border-color: rgb(255, 0, 221);
-  border-style: solid; 
-   
+  border-style: solid;    
   height: 90%;
-  width: 14% ;
+  width: 20% ;
    
 }
 
 .navLink5{
   border-color: rgb(255, 0, 221);
   border-style: solid; 
-   
   height: 90%;
-  width: 14% ;
+  width: 20% ;
    
+}
+.navLinkFont{
+  font-size: 1.9vw;
+  font-family: Lora-Regular;
+  color: rgb(0, 0, 0);
 }

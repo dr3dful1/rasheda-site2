@@ -9,18 +9,29 @@ function MainNavbar() {
             </div>
             <div className="navLinkDiv">
                 <div className="navLink1">
-
+                    <p className="navLinkFont">
+                        AREAS OF PRACTICE
+                    </p>
                 </div>
                  <div className="navLink2">
-
+                    <p className="navLinkFont">
+                        CONTACT US
+                    </p>
                 </div>
                  <div className="navLink3">
-
+                    <p className="navLinkFont">
+                        ABOUT US
+                    </p>
                 </div>
                  <div className="navLink4">
-
+                    <p className="navLinkFont">
+                        ATTORNEYS
+                    </p>
                 </div>
                  <div className="navLink5">
+                     <p className="navLinkFont">
+                        TESTIMONIALS
+                    </p>
 
                 </div>
 
