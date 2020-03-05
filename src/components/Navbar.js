@@ -7,8 +7,24 @@ function MainNavbar() {
             <div className="logoDiv">
                 <img src="lawfirmlogo.jpg" alt="Italian Trulli" className="navLogo " />
             </div>
-      
+            <div className="navLinkDiv">
+                <div className="navLink1">
+
+                </div>
+                 <div className="navLink2">
+
+                </div>
+                 <div className="navLink3">
+
+                </div>
+                 <div className="navLink4">
+
+                </div>
+
+
+            </div>
         </div>
+      
     )
 }
 

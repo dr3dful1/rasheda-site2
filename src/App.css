@@ -100,16 +100,64 @@
   padding-left:10px;
   z-index:12;
   padding-top:4px;
+  position: relative;
 }
 .logoDiv{
-  /* border-color: red;
-  border-style: solid; */
+  border-color: red;
+  border-style: solid;
   height: 11vh;
   width:10%;
+   
 }
 
 .navLogo{
   object-fit:cover;
   width:100%;
   height:100%;
+}
+
+.navLinkDiv{
+  border-color: rgb(0, 255, 191);
+  border-style: solid; 
+  position:absolute;
+  right:0px;
+  left:20%;
+  height:95%;
+  width:80%;
+  top:1%; 
+  display:flex;
+  justify-content: space-around;
+}
+
+.navLink1{
+  border-color: rgb(255, 0, 221);
+  border-style: solid; 
+   
+  height: 90%;
+  width: 20% ;
+   
+}
+.navLink2{
+  border-color: rgb(255, 0, 221);
+  border-style: solid; 
+   
+  height: 90%;
+  width: 20% ;
+   
+}
+.navLink3{
+  border-color: rgb(255, 0, 221);
+  border-style: solid; 
+   
+  height: 90%;
+  width: 20% ;
+   
+}
+.navLink4{
+  border-color: rgb(255, 0, 221);
+  border-style: solid; 
+   
+  height: 90%;
+  width: 20% ;
+   
 }
