@@ -3,7 +3,7 @@ import React from 'react';
 function LandingImage() {
     return (
         <div>
-             <div>
+             <div className="bodyDiv">
                 <img src="legal_image.jpg" alt="Italian Trulli" className="landingImage"/>
                     <div className="intraMainPicText">
                         <p className="whiteTextBackground"> 
