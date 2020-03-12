@@ -147,9 +147,9 @@
 .navLink1{
   /* border-color: rgb(255, 0, 221);
   border-style: solid;  */
-   
-  height: 90%;
-  width: 20% ;
+  
+  height: 110%;
+  max-width: 100% ;
   
    
 }
@@ -250,11 +250,13 @@
   max-height: 100%;
   
 }
- 
+
 .aoeWrapper{
- 
-  background-size: cover;
-  max-width: 25%;
-  max-height: 80%;
- 
+  
+    
+    background-size: cover;
+    width: 15%;
+    max-width: 15%;
+    max-height: 100%;
+  
 }

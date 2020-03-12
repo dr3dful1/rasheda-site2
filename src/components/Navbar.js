@@ -8,7 +8,7 @@ function MainNavbar() {
                 <img src="lawfirmlogo.jpg" alt="Italian Trulli" className="navLogo " />
             </div>
             <div className="navLinkDiv">
-                {/* <div className="aoeWrapper"> */}
+                <div className="aoeWrapper"> 
                         <div className="navLink1">
                                 <p className="navLinkFont">
                                     AREAS OF<br/>
@@ -34,7 +34,7 @@ function MainNavbar() {
                                 </a><br/>
                             </div>
                         
-                    {/* </div> */}
+                    </div> 
                 </div>        
                  <div className="navLink2">
                     <p className="navLinkFont">
