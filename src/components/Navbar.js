@@ -7,33 +7,35 @@ function MainNavbar() {
             <div className="logoDiv">
                 <img src="lawfirmlogo.jpg" alt="Italian Trulli" className="navLogo " />
             </div>
-            <div className="navLinkDiv">        
-                    <div className="navLink1">
-                            <p className="navLinkFont">
-                                AREAS OF<br/>
-                                PRACTICE
-                            </p>
-                        <div className="dropdownContent">
-                            <a href="#" >
-                            <div className="aop1">
-                                    <img src="medmal.png" alt="Italian Trulli" className="medmalPic" href="#" />
-                                    Link 1
-                                </div>
-                           </a><br/>
-                            <a href="#" >Link 2
-                                <div className="aop2">
-                                    <img src="ssc.jpg" alt="Italian Trulli" className="sscPic" href="#" />
-                                </div>
+            <div className="navLinkDiv">
+                {/* <div className="aoeWrapper"> */}
+                        <div className="navLink1">
+                                <p className="navLinkFont">
+                                    AREAS OF<br/>
+                                    PRACTICE
+                                </p>
+                            <div className="dropdownContent">
+                                <a href="#" >
+                                <div className="aop1">
+                                        <img src="medmal.png" alt="Italian Trulli" className="medmalPic" href="#" />
+                                        Link 1
+                                    </div>
                             </a><br/>
-                            <a href="#" >
-                                <div className="aop3">
-                                    <img src="healthsym.jpg" alt="Italian Trulli" className="persInjPic" href="#"  />
-                                    Link 3
-                                </div>
-                            </a><br/>
-                        </div>
-                    
-                </div>
+                                <a href="#" >Link 2
+                                    <div className="aop2">
+                                        <img src="ssc.jpg" alt="Italian Trulli" className="sscPic" href="#" />
+                                    </div>
+                                </a><br/>
+                                <a href="#" >
+                                    <div className="aop3">
+                                        <img src="healthsym.jpg" alt="Italian Trulli" className="persInjPic" href="#"  />
+                                        Link 3
+                                    </div>
+                                </a><br/>
+                            </div>
+                        
+                    {/* </div> */}
+                </div>        
                  <div className="navLink2">
                     <p className="navLinkFont">
                          
