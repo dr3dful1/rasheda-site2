@@ -1,5 +1,6 @@
 import React from 'react'
 import {Nav, NavItem,Navbar,Badge} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 function MainNavbar() {
     return (
@@ -18,18 +19,19 @@ function MainNavbar() {
                                 <a href="#" >
                                 <div className="aop1">
                                         <img src="medmal.png" alt="Italian Trulli" className="medmalPic" href="#" />
-                                        Link 1
+                                        <Link href="#" to={{pathname:'/medical_malpractice'}}> Medical Malpractice</Link>
                                     </div>
                             </a><br/>
-                                <a href="#" >Link 2
+                                <a href="#" > 
                                     <div className="aop2">
                                         <img src="ssc.jpg" alt="Italian Trulli" className="sscPic" href="#" />
+                                        <Link href="#" to={{pathname:'/Social_Security'}}> Social Security</Link>
                                     </div>
                                 </a><br/>
                                 <a href="#" >
                                     <div className="aop3">
                                         <img src="healthsym.jpg" alt="Italian Trulli" className="persInjPic" href="#"  />
-                                        Link 3
+                                        <Link href="#" to={{pathname:'/personal_injury'}}> Persoal Injury</Link>
                                     </div>
                                 </a><br/>
                             </div>
@@ -39,22 +41,22 @@ function MainNavbar() {
                  <div className="navLink2">
                     <p className="navLinkFont">
                          
-                        CONTACT US
+                      <Link href="#" to={{pathname:'/Contact'}}> Contact Us</Link>
                     </p>
                 </div>
                  <div className="navLink3">
                     <p className="navLinkFont">
-                        ABOUT US
+                        <Link href="#" to={{pathname:'/Landing'}}> About Us</Link>
                     </p>
                 </div>
-                 <div className="navLink4">
+                 <div className="navLink4" >
                     <p className="navLinkFont">
-                        ATTORNEYS
+                        <Link href="#" to={{pathname:'/Lawyers'}}> Lawyers</Link>
                     </p>
                 </div>
                  <div className="navLink5">
                      <p className="navLinkFont">
-                        TESTIMONIALS
+                        <Link href="#" to={{pathname:'/Testimonials'}}> Testimonials</Link>
                     </p>
 
                 </div>
@@ -67,3 +69,5 @@ function MainNavbar() {
 }
 
 export default MainNavbar
+
+// Change link color https://stackoverflow.com/questions/46102586/change-default-color-of-link-from-blue-to-white
