@@ -1,21 +1,28 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import LandingImage from '../components/LandingImage'
+import SecondLandingArea from '../components/SecondLandingArea'
+import Footer from "../components/Footer"
+import  Navbar from  '../components/Navbar'
+import SSBody from '../components/SSBody'
 
 function SSPage() {
     return (
         <div>
-                 <div className="landingImage">
-                <img src="legal_image.jpg" alt="Italian Trulli" />
-             </div>
-               
-             <div className="secondLandingArea">
-                        <div className="ss">
-                            <h1>Social Security</h1>
-                        </div>
-                         
-            
-            
-                </div>
+        <div>
+            < Navbar />
+
         </div>
+
+ 
+        <div  className="container landingContainer ">
+            <SSBody />
+
+            
+        </div> 
+            <Footer/>
+    </div>
+ 
     )
 }
 

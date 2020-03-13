@@ -1,19 +1,28 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import LandingImage from '../components/LandingImage'
+import SecondLandingArea from '../components/SecondLandingArea'
+import Footer from "../components/Footer"
+import  Navbar from  '../components/Navbar'
+import PIBody from '../components/PIBody'
+
 function PIPage() {
     return (
         <div>
-            <div className="landingImage">
-                <img src="legal_image.jpg" alt="Italian Trulli" />
-             </div>
-            <div className="secondLandingArea">
-                        
-                        <div className="pi">
-                        <h1>Personal Injury</h1>
-                        </div>
-                         
-            </div>
+        <div>
+            < Navbar />
+
         </div>
+
+ 
+        <div  className="container landingContainer ">
+            <PIBody />
+
+            
+        </div> 
+            <Footer/>
+    </div>
+ 
     )
 }
 
