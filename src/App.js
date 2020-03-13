@@ -26,6 +26,7 @@ function App() {
       <Route exact path="/Social_Security" component={SSPage}/>  
       <Route exact path="/Personal_Injury" component={PIPage}/>  
      </BrowserRouter>
+      
   );
 }
  
