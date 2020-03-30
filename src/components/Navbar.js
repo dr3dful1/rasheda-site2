@@ -19,7 +19,7 @@ function MainNavbar() {
                                 <a href="#" >
                                 <div className="aop1">
                                         <img src="medmal.png" alt="Italian Trulli" className="medmalPic" href="#" />
-                                        <Link href="#" to={{pathname:'/medical_malpractice'}}> Medical Malpractice</Link>
+                                        <Link href="#" className="navLinkColor" to={{pathname:'/medical_malpractice'}}> Medical Malpractice</Link>
                                     </div>
                             </a><br/>
                                 <a href="#" > 

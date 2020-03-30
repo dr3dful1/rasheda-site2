@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactContactForm from 'react-mail-form';
- 
+
 import axios from 'axios';
 
 
 function ContactBody() {
     return (
         <div>
+
              <div className="bodyDiv">
                 <img src="legal_image.jpg" alt="Italian Trulli" className="landingImage"/>
                     <div className="intraMainPicText">
+            
                         <p className="whiteTextBackground"> 
                             <br/>
                              <form>
@@ -38,9 +40,9 @@ function ContactBody() {
                     </div>
              </div>
               
-           
+            
               
-        </div>
+        </div> 
     )
 }
 

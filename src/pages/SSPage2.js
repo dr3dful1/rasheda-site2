@@ -7,29 +7,8 @@ function SSBody() {
             <div className="intraMainPicText">
                 <p className="whiteTextBackground"> 
                     <br/>
-                    Social Security Disability Benefits: SSDI &amp; SSI
-Social Security Disability Insurance (SSDI) is a program that pays a monthly benefit
-for individuals with disabilities who have paid into Social Security by working a job
-and earning “work credits”.  People who qualify typically have worked a job or jobs
-for multiple years prior to the onset of their disability.
-Supplemental Security Income (SSI) is designed to help people with disabilities pay
-for their basic living expenses. The monthly benefits for SSI are funded by taxes
-rather than Social Security. This means that you do not have to verify a work history
-to qualify.
-Some people will only be eligible for one program or the other, but some people will
-qualify for both. For more on these Social Security disability benefits programs,
-please see our article and explainer video: What is The Difference Between SSDI &amp;
-SSI?
-Ongoing Disability Benefits
-If you qualify for SSDI or SSI, you can receive monthly income for as long as you
-remain eligible. SSDI stops at full retirement age, replaced by regular Social Security
-retirement benefits. SSI can continue past full retirement age.
-Also, after a waiting period, SSDI and SSI recipients get access to healthcare
-coverage, such as Medicaid or Medicare, which may help to cover past and future
-medical care.
-The current maximum monthly benefit for SSDI is $2,861 (as of January, 2019).
+                   
 
-{/* Disability Benefits for Physical Impairments
 If you have a physical impairment that is expected to result in death or prevent
 you from earning more than $1,000 a month for at least one year, you may be
 eligible for disability benefits. Midwest Disability, P.A., can help you.
@@ -59,6 +38,7 @@ form.
  Neck Injury
  Spinal Injury
  Migraines
+{/* Disability Benefits for Physical Impairments
 We provide a comprehensive range of services. We help clients prepare initial
 applications. Our physical impairments attorneys help clients from the initial
 application to administrative hearings and appeals, fighting to protect our clients&#39;

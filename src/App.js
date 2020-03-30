@@ -5,6 +5,7 @@ import WelcomePage from './pages/WelcomePage';
 import {BrowserRouter, Route} from 'react-router-dom'; 
 import LandingPage from './pages/LandingPage';
 import SSPage from './pages/SSPage';
+// import SSPage2 from './pages/SSPage2';
 import PIPage from './pages/PIPage';
 import MMPage from './pages/MMPage';
 import About from './pages/About';
@@ -18,13 +19,15 @@ function App() {
     <BrowserRouter>
       <Route exact path="/" component={WelcomePage}/>
       <Route exact path="/landing" component={LandingPage}/>    
-      <Route exact path="/Social_Security" component={SSPage}/>  
       <Route exact path="/Personal_Injury" component={PIPage}/>  
       <Route exact path="/Medical_Malpractice" component={MMPage}/>  
       <Route exact path="/About" component={About}/> 
       <Route exact path="/Contact" component={Contact}/>   
       <Route exact path="/Lawyers" component={Lawyers}/>   
       <Route exact path="/Testimonials" component={Testimonials}/> 
+      <Route exact path="/Social_Security" component={SSPage}/>  
+      {/* <Route exact path="/Social_Security2" component={SSPage2}/>  */}
+       
      </BrowserRouter>
       
   );
