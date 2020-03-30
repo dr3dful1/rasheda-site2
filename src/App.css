@@ -199,7 +199,7 @@
 .dropdownContent{
   display:none;
   background-color: rgb(255, 255, 255);
-  width: 25vw;
+  width: 18vw;
   height:50vh;
   transition-duration: 5s;
   transition-property: height;
@@ -213,22 +213,22 @@
 }
 .aop1{
   background-color: rgb(255, 255, 255);
-  width: 25vw;
-  height:15vh;
+  width: 18vw;
+  height:10vh;
   position: relative;
 
 }
 
 .aop2{
   background-color: rgb(255, 255, 255);
-  width: 25vw;
-  height:15vh;
+  width: 18vw;
+  height:10vh;
 }
 
 .aop3{
   background-color: rgb(255, 255, 255);
-  width: 25vw;
-  height:15vh;
+  width: 18vw;
+  height:10vh;
 }
 
 .medmalPic{
