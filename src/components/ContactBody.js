@@ -13,31 +13,19 @@ function ContactBody() {
              <div className="bodyDiv">
                 <img src="legal_image.jpg" alt="Italian Trulli" className="landingImage"/>
                     <div className="intraMainPicText">
-            
-                        <p className="whiteTextBackground"> 
-                            <br/>
-                             <form>
-                                 <label>
-                                     First Name:
-                                     <input type="text" name="first_name" />                                    
-                                 </label>
-                                 <label>
-                                     Last Name:
-                                     <input type="text" name="last_name" />                                    
-                                 </label>
-                                 <label>
-                                     email:
-                                     <input type="text" name="first_name" />                                    
-                                 </label>
-                                 <label>
-                                     Describe Issue:
-                                     <textarea name="description" />                                    
-                                 </label>
-                                 <br/> 
-                                 <input type="submit" value="submit" />
+                        <div className="contactSpacing">
 
-                             </form>
-                        </p>
+                        </div>
+                            <p className="whiteTextBackground"> 
+                            <br/>
+                            Please feel for to drop me a line at 
+                            
+                            <br/>
+                                Rasheda.Armstrong@gmail.com
+                                <br/>
+                            my Phone number is 123-123-1234 <br/>
+                            Serious Inquiries only
+                            </p>
                         
                     </div>
              </div>

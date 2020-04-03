@@ -18,20 +18,23 @@ function MainNavbar() {
                             <div className="dropdownContent">
                                 <a href="#" >
                                 <div className="aop1">
-                                        <img src="medmal.png" alt="Italian Trulli" className="medmalPic" href="#" />
-                                        <Link   className="navLinkColor" to={{pathname:'/medical_malpractice'}}> Medical Malpractice</Link>
+                                        <Link   className="navLinkColor" to={{pathname:'/medical_malpractice'}}>
+                                            <img src="medmal.png" alt="Italian Trulli" className="medmalPic" href="#" />
+                                               Medical   Malpractice  </Link>
                                     </div>
                             </a><br/>
                                 <a href="#" > 
                                     <div className="aop2">
-                                        <img src="ssc.jpg" alt="Italian Trulli" className="sscPic" href="#" />
-                                        <Link href="#" to={{pathname:'/Social_Security'}}> Social Security</Link>
+                                        <Link href="#" to={{pathname:'/Social_Security'}}>
+                                            <img src="ssc.jpg" alt="Italian Trulli" className="sscPic" href="#" />
+                                              Social Security</Link>
                                     </div>
                                 </a><br/>
                                 <a href="#" >
                                     <div className="aop3">
-                                        <img src="healthsym.jpg" alt="Italian Trulli" className="persInjPic" href="#"  />
-                                        <Link href="#" to={{pathname:'/personal_injury'}}> Persoal Injury</Link>
+                                        <Link href="#" to={{pathname:'/personal_injury'}}>
+                                            <img src="healthsym.jpg" alt="Italian Trulli" className="persInjPic" href="#"  />
+                                               Personal Injury  </Link>
                                     </div>
                                 </a><br/>
                             </div>
