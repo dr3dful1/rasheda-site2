@@ -13,7 +13,7 @@ function WelcomePage() {
                         <Link to={{pathname:'/landing'}} >
                             <div className="mainPageBoxDiv">
                                 <div className="mainPicDiv">
-                                <img src="lawfirmlogo.jpg" alt="Italian Trulli" className="navLogo " />
+                                    <img src="lawfirmlogo.jpg" alt="Italian Trulli" className="navLogo " />
                                 </div>
 
                             </div>
