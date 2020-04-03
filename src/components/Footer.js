@@ -7,7 +7,7 @@
          <br/>
          <br/>
          <br/>
-         <p> ARMSTRONG AND KNOX | ALL RIGHTS RESERVED</p> 
+         
           
        </div>
        
