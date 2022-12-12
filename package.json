@@ -12,7 +12,7 @@
     "bootstrap": "^4.4.1",
     "browser-router": "^0.2.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mailgun.js": "^2.0.1",
     "mdbreact": "^4.25.3",
     "navbar-react": "^1.0.4",
